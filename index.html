@@ -9,16 +9,26 @@
 
     <style>
   
-    </style>
+body {
+background-image: url(https://www.worcester.gov.uk/images/easyblog_shared/2019/Football---carousel.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+  background-size: cover;
+
+}
+</style>
+    
 </head>
 <body>
+   
+    
     <main>
 <h1 style="background-color: blanchedalmond;" >  Class 1 Lab </h1>
 <p style="background-color: darkgrey;"> Please Enter Your Name</p>
 <p style="background-color: darkslategray;">What Football Team Are You A Fan Of?</p>
 <p style="background-color: dimgray;">Who Is Your Favourite Player?</p>
 <p style="background-color: honeydew;">Who Do You Think Is The Worst Football Player?</p>
-
+<div style="background-image: ('ball.jpg');"></div>
     </main>
     <footer>
 
@@ -28,8 +38,9 @@ var q1= prompt ("Please Enter Your Name");
 var q2= prompt ("What Football Team Are You A Fan Of?");
 var q3= prompt ("Who Is Your Favourite Player?");
 var q4= prompt ("Who Do You Think Is The Worst Football Player?");
+console.log(q4)
 
-alert (` Hello ${q1} You Are a ${q2}fan`)
+alert (` Hello ${q1} You Are a ${q2} fan  ${q3} is your favourite player and you think ${q4} is the worst football player well i might agree to that! `)
 
 
 
